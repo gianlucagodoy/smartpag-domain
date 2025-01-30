@@ -1,10 +1,10 @@
-import '../constants/zuk_http_constants.dart';
+import '../constants/constants.dart';
 
 class HeaderUtils {
   static final Map<String, String> headers = {
-    ZukHttpConstants.ACCEPT:
-        '${ZukHttpConstants.APPLICATION_JSON}, ${ZukHttpConstants.TEXT_PLAIN}, */*',
-    ZukHttpConstants.CONTENT_TYPE:
-        '${ZukHttpConstants.APPLICATION_JSON}; ${ZukHttpConstants.CHARSET_UTF}',
+    SmartHttpConstants.ACCEPT:
+        '${SmartHttpConstants.APPLICATION_JSON}, ${SmartHttpConstants.TEXT_PLAIN}, */*',
+    SmartHttpConstants.CONTENT_TYPE:
+        '${SmartHttpConstants.APPLICATION_JSON}; ${SmartHttpConstants.CHARSET_UTF}',
   };
 }

@@ -1,1 +1,1 @@
-export './zuk_authentication_options.dart';
+export './smart_authentication_options.dart';

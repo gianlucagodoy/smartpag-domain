@@ -1,4 +1,4 @@
-/// O Arguments e utilizado em conjuto com o **ZukNavigator**
+/// O Arguments e utilizado em conjuto com o **SmartNavigator**
 class Arguments<T extends Object> {
   final Map<String, dynamic>? params;
   final T? data;

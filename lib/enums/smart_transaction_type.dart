@@ -1,0 +1,4 @@
+enum SmartTransactionType {
+  credit,
+  debit,
+}

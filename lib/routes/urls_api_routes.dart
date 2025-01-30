@@ -1,51 +1,38 @@
 import '../enums/enums.dart';
 
 class UrlsApiRoutes {
-  static final Zuk = {
+  static final webSmartpag = {
     "dev": {
-      ZukApiName.core: "https://coreapidev.Zukpagamentos.com.br:9004",
-      ZukApiName.image: "https://portaldev.Zukpagamentos.com.br:9003",
-      ZukApiName.portal: "https://portaldev.Zukpagamentos.com.br:9003/backend",
-      ZukApiName.portal_v2: "https://portalapidev.Zukpagamentos.com.br:9004",
-    },
-    "intg": {
-      ZukApiName.core: "https://coreapiint.Zukpagamentos.com.br:1004",
-      ZukApiName.portal: "https://portalint.Zukpagamentos.com.br/backend",
-      ZukApiName.image: "https://portalint.Zukpagamentos.com.br",
-      ZukApiName.portal_v2: "https://portalapiint.Zukpagamentos.com.br:1004",
+      SmartApiName.base: "https://devsmart.smartpag.online/api",
+      SmartApiName.codgnito:
+          "https://2tmwkrh4a5.execute-api.us-east-2.amazonaws.com/dev/v2",
+      SmartApiName.ifood:
+          "https://2tmwkrh4a5.execute-api.us-east-2.amazonaws.com/prod",
+      SmartApiName.read: "https://portalapidev.smartpagamentos.com.br:9004",
+      SmartApiName.successUrl:
+          "https://devadmin.smartpag.online/admin/#/conta/",
+      SmartApiName.website: "https://devapps.smartpag.online",
     },
     "hml": {
-      ZukApiName.core: "https://coreapihml.Zukpagamentos.com.br",
-      ZukApiName.portal: "https://portalhml.Zukpagamentos.com.br/backend",
-      ZukApiName.image: "https://portalhml.Zukpagamentos.com.br",
-      ZukApiName.portal_v2: "https://portalapihml.Zukpagamentos.com.br",
+      SmartApiName.base: "https://api.hom-ecs-smart.smartpag.net/api",
+      SmartApiName.codgnito:
+          "https://2tmwkrh4a5.execute-api.us-east-2.amazonaws.com/dev/v2",
+      SmartApiName.ifood:
+          "https://2tmwkrh4a5.execute-api.us-east-2.amazonaws.com/prod",
+      SmartApiName.read: "https://portalapidev.smartpagamentos.com.br:9004",
+      SmartApiName.successUrl:
+          "https://devadmin.smartpag.online/admin/#/conta/",
+      SmartApiName.website: "https://devapps.smartpag.online",
     },
     "prod": {
-      ZukApiName.core: "https://coreapi.Zukpagamentos.com.br",
-      ZukApiName.portal: "https://portalZuk.com.br/backend",
-      ZukApiName.portal_v2: "https://portalapi.Zukpagamentos.com.br",
-      ZukApiName.image: "https://portalZuk.com.br",
-    },
-  };
-
-  static final partner0 = {
-    "dev": {
-      ZukApiName.core: "https://coreapidev.Zukpagamentos.com.br:9004",
-      ZukApiName.portal: "https://portaldev.Zukpagamentos.com.br:9003/backend",
-      ZukApiName.portal_v2: "https://portalapidev.Zukpagamentos.com.br:9004",
-      ZukApiName.image: "https://portaldev.Zukpagamentos.com.br:9003",
-    },
-    "intg": {
-      ZukApiName.core: "https://coreapiint.Zukpagamentos.com.br:1004",
-      ZukApiName.portal: "https://portalint.Zukpagamentos.com.br/backend",
-      ZukApiName.portal_v2: "https://portalapiint.Zukpagamentos.com.br:1004",
-      ZukApiName.image: "https://portalint.Zukpagamentos.com.br",
-    },
-    "prod": {
-      ZukApiName.core: "",
-      ZukApiName.portal: "",
-      ZukApiName.portal_v2: "",
-      ZukApiName.image: "",
+      SmartApiName.base: "https://smart.smartpag.online/api",
+      SmartApiName.codgnito:
+          "https://2tmwkrh4a5.execute-api.us-east-2.amazonaws.com/prod/v3",
+      SmartApiName.ifood:
+          "https://portaldev.smartpagamentos.com.br:9003/backend",
+      SmartApiName.read: "https://portalapidev.smartpagamentos.com.br:9004",
+      SmartApiName.successUrl: "https://apps.smartpag.online/admin/#/conta/",
+      SmartApiName.website: "https://smartpag.app",
     },
   };
 }
