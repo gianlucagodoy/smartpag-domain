@@ -55,10 +55,9 @@ Para integrar o pacote `smartpag_domain` em seu app base ou microapp Flutter, si
 Se você deseja contribuir para o desenvolvimento deste pacote, sinta-se à vontade para abrir issues ou enviar pull requests. Sua contribuição é muito bem-vinda!
 
 @author: Gian Luca Grillo Marques
-@owner: Smartpag Brasil LTDA
 
 ## Licença
-Este pacote é distribuído sob a licença da Smartpag Brasil LTDA CNPJ 48.705.468/0001-08. 
+Este pacote é distribuído sob a licença da MINHA FAIXA DIGITAL LTDA. 
 o que significa que você não pode usá-lo livremente em seus projetos.
 
 
